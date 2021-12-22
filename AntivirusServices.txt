@@ -31,3 +31,9 @@ ASWSCAN|Avast
 AVCENTER|Avira
 AVGNTMGR|Unknown
 osqueryd|OSQuery
+mpssvc|WindowsDefender
+PolicyAgent|WindowsDefender
+SecurityHealthServices|SecurityHealthServices
+Sense|WindowsDefender
+WdNisSvc|WindowsDefender
+wscsvc|Antivirus
