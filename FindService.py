@@ -28,13 +28,26 @@ def LoadTraitTxtToDict(FilePath):
 
 if __name__=="__main__":
     i = 0
-    dstDict = LoadTraitTxtToDict("AntivirusProcess.txt")
+    dstDict = LoadTraitTxtToDict("AntivirusServices.txt")
+    
 
-    try:
-        srcFile = open("tasklist.txt", 'r')
-    except:
-        print("File is not accessible.")
+# Remove word
+    srcFile = open(sys.argv[1], 'r')
+    remove_word = "SERVICE_NAME: "
+    lst = []
+    for line in srcFile:
+        if remove_word in line:
+            line = line.replace(remove_word,"")
+        lst.append(line)
+    srcFile.close()
 
+    srcFile = open(sys.argv[1], 'w')
+    for line in lst:
+        srcFile.write(line)
+    srcFile.close()
+
+# Searching
+    srcFile = open(sys.argv[1], 'r')
     while True:
         proLine = srcFile.readline()
         if proLine == '':
@@ -43,12 +56,9 @@ if __name__=="__main__":
         index = proLine.find(' ')
         key = proLine[:index]
 
-        if '.exe' not in key.lower():
-            continue
-
         if dstDict.__contains__(key):
             print('%d %s %s' % (i, key, dstDict[key]))
             i += 1
 
     if i == 0:
-        print('We don\'t find any Antivirus process! ')
+        print('We don\'t find any Antivirus services! ')

@@ -1,3 +1,5 @@
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
 System Idle Process              0 Services                   0      24 K
 System                           4 Services                   0   4,664 K
 smss.exe                       512 Services                   0   1,308 K
