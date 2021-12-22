@@ -12,6 +12,10 @@ C:\Users\target> sc queryex type=service state=all | find /i "SERVICE_NAME:"
 
 Our box:
 ```
+git clone https://github.com/fareedfauzi/FindAntivirusProcess.git
+cd FindAntivirusProcess
+chmod +x *.py
+
 python3 ./FindProcess.py <filename>
 python3 ./FindProcess.py tasklist.txt
 
