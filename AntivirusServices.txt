@@ -1,1 +1,32 @@
 WinDefend|WindowsDefender 
+adawareantivirusservice|Adaware 
+Avast Antivirus|Avast 
+AntiVirService|Avira 
+Avira.ServiceHost|Avira 
+AVG Antivirus|AVG Antivirus 
+VSSERV|Bitdefender 
+BsFileScan|Bullguard 
+BsMain|Bullguard 
+ekm|ESET 
+ekmEpfw|ESET 
+Fshoster|F-Secure 
+GDScan|GData 
+AVKWCtl|GData 
+AVP|Kaspersky 
+K7CrvSvc|K7 
+K7RTScan|K7 
+McAPExe|McAfee 
+mfemms|McAfee 
+NortonSecurity|Norton 
+Panda Software Controller|Panda 
+PavPrSvr|Panda 
+SavService|Sophos 
+Sophos Agent|Sophos 
+VIPRE Business Service|VIPRE 
+WRSVC|Webroot 
+ZAPrivacyService|ZoneAlarm 
+MBAMSERVICE|MalwarebytesAnti 
+TMBMSRV|TrendMicro 
+ASWSCAN|Unknown
+AVCENTER|Unknown
+AVGNTMGR|Unknown

@@ -31,17 +31,17 @@ if __name__=="__main__":
     dstDict = LoadTraitTxtToDict("AntivirusProcess.txt")
 
     try:
-        srcFile = open("tasklist.txt", 'r')
+        srcFile = open(sys.argv[1], 'r')
     except:
         print("File is not accessible.")
 
     while True:
-        proLine = srcFile.readline()
-        if proLine == '':
+        procLine = srcFile.readline()
+        if procLine == '':
             break
 
-        index = proLine.find(' ')
-        key = proLine[:index]
+        index = procLine.find(' ')
+        key = procLine[:index]
 
         if '.exe' not in key.lower():
             continue
