@@ -1583,7 +1583,7 @@ rfwstub.exe|Rising
 rnav.exe|Symantec
 rrguard.exe|Antivirus/SecurityTools
 rshell.exe|Antivirus/SecurityTools
-rsnetsvr.exe|RisingAnti-Virus
+rsnetsvr.exe|RisingAnti-Viruss
 rstray.exe|RisingAnti-Spyware
 rtvscan.exe|Symantec
 rtvscn95.exe|Antivirus/SecurityTools
@@ -1594,7 +1594,7 @@ rundll.exe|Antivirus/SecurityTools
 rundll16.exe|Antivirus/SecurityTools
 ruxdll32.exe|Antivirus/SecurityTools
 saHookMain.exe|McAfeeSiteAdvisor
-safeboxTray
+safeboxTray|360safebox
 safedog.exe|Antivirus/SecurityTools
 safedogguardcenter.exe|Antivirus/SecurityTools
 safedogupdatecenter.exe|Antivirus/SecurityTools
@@ -1856,3 +1856,6 @@ zlh.exe|NormanAd-AwareSEPlusAntivirus1.06r1andFirewall1
 zonalm2601.exe|Antivirus/SecurityTools
 zonealarm.exe|Antivirus/SecurityTools
 zonealarm.exe|ZoneAlarmIDS
+osqueryd.exe|OSQuery
+Sysmon.exe|Sysmon
+edrsvc.exe|ComodoEDR

@@ -27,6 +27,7 @@ WRSVC|Webroot
 ZAPrivacyService|ZoneAlarm 
 MBAMSERVICE|MalwarebytesAnti 
 TMBMSRV|TrendMicro 
-ASWSCAN|Unknown
-AVCENTER|Unknown
+ASWSCAN|Avast
+AVCENTER|Avira
 AVGNTMGR|Unknown
+osqueryd|OSQuery
