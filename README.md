@@ -1,7 +1,7 @@
 # What's new
 - Python3 version
 - Include FindServices.py
-- Up-to-date AV process and services name (add about 800++ new process name)
+- Up-to-date AV process and services name including security tools' process name (add about 800++ new process name)
 
 # Usage:
 Targeted Windows box (shell):
