@@ -113,7 +113,7 @@ AvpM.exe|Kaspersky
 Avsynmgr.exe|McAfeeVirusScanSynchronizationManager
 Avtask.exe|Panda
 BDSWITCH.exe|Antivirus/SecurityTools
-BITDEFENDER.exe|Antivirus/SecurityTools
+BITDEFENDER.exe|Bitdefender
 BKavService.exe|Antivirus/SecurityTools
 BLACKD.exe|BlackIceIDS
 BLACKICE.exe|Antivirus/SecurityTools
@@ -225,7 +225,7 @@ FIREWALL.exe|Antivirus/SecurityTools
 FORTICLIENT.exe|Antivirus/SecurityTools
 FORTIESNAC.EXE|FortinetSmartSecurity
 FORTIPROXY.EXE|FortinetSmartSecurity
-FORTISCAN.exe|Antivirus/SecurityTools
+FORTISCAN.exe|FortinetSmartSecurity
 FORTISSLVPNDAEMON.EXE|FortinetSmartSecurity
 FORTITRAY.EXE|FortinetSmartSecurity
 FORTIWF.EXE|FortinetSmartSecurity
@@ -1859,3 +1859,7 @@ zonealarm.exe|ZoneAlarmIDS
 osqueryd.exe|OSQuery
 Sysmon.exe|Sysmon
 edrsvc.exe|ComodoEDR
+wireshark.exe|Wireshark
+fiddler.exe|Fiddler
+procmon.exe|ProcessMonitor
+processhacker.exe|ProcessHacker
