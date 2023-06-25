@@ -1864,3 +1864,4 @@ fiddler.exe|Fiddler
 procmon.exe|ProcessMonitor
 processhacker.exe|ProcessHacker
 aurora-agent-64.exe|AuroraEDR
+elastic-agent.exe|ElasticEDR
